@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 50px 20px;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.features {
+    margin-bottom: 40px;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+}
+
+.promo {
+    background-color: #fff3e0;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.promo h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.promo p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="hero">
+            <h2>Welcome to My Website!</h2>
+            <p>Your one-stop destination for amazing products and services.</p>
+            <button onclick="window.location.href='#'">Learn More</button>
+        </section>
+
+        <section class="features">
+            <h2>Our Featured Products</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <h3>Product 1</h3>
+                    <p>Top quality, reliable product.</p>
+                    <button onclick="window.location.href='#'">Shop Now</button>
+                </div>
+                <div class="feature-card">
+                    <h3>Product 2</h3>
+                    <p>Innovative design and technology.</p>
+                    <button onclick="window.location.href='#'">Shop Now</button>
+                </div>
+                <div class="feature-card">
+                    <h3>Product 3</h3>
+                    <p>Affordable and long-lasting.</p>
+                    <button onclick="window.location.href='#'">Shop Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo">
+            <h2>Special Promotions</h2>
+            <p>Don't miss our limited-time offers on exclusive products!</p>
+            <button onclick="window.location.href='#'">Explore Promotions</button>
+        </section>
+    </main>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
